@@ -54,6 +54,16 @@ deactivate
 ## Sample Execute
 
 ```bash
+PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection> virtualenv env -p E:\sys\services\Python\Python311\python.exe
+
+PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection> .\env\Scripts\activate
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection> python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in d:\vihat\github\vhs-fork\moire-pattern-detection\env\lib\site-packages (25.0)
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection> pip install -r requirements.txt
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection>
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection>
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection>
+
 (env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection> python.exe -m pip install --upgrade pip
 Requirement already satisfied: pip in d:\vihat\github\vhs-fork\moire-pattern-detection\env\lib\site-packages (25.0)
 (env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection> pip install -r requirements.txt
@@ -454,4 +464,8 @@ Traceback (most recent call last):
   File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
 FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'D:\vihat\github\vhs-fork\Moire-Pattern-Detection\src\moirePattern3CNN_.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
 (env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection>
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection>
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection>
+(env) PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection> deactivate
+PS D:\vihat\github\vhs-fork\Moire-Pattern-Detection>
 ```
